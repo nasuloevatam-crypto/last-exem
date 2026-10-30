@@ -1,0 +1,804 @@
+*{
+    margin: 0;
+}
+header{
+    padding: 20px 30px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    button{
+        padding: 12px 30px;
+        background-color: #FFD600;
+        border: none;
+        border-radius: 30px;
+    }
+    p{
+        color: #252525;
+    }
+}
+.icon{
+    img{
+        margin-left: 15px;
+        align-items: center;
+    }
+         button{
+        padding: 12px 30px;
+        background-color: #F5F5F5;
+        border: none;
+        border-radius: 30px;
+    }
+    
+}
+.border{
+    margin-top: 35px;
+    border: 1px solid rgba(128, 128, 128, 0.148);
+}
+.bg{
+    height: 400px;
+    background-image:url("src/cb2eac805dc66254228e890d8bc81cdd9faef7df.jpg");
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px 40px;
+    border-radius: 30px;
+}
+.section1{
+    padding: 20px 30px;
+}
+.text{
+    margin-top: 60px;
+    width: 45%;
+    h1{
+        font-size: 52px;
+        font-weight: bold;
+    }
+    p{
+        color: #252525d2;
+        font-size: 17px;
+    }
+        button{
+            margin-top: 30px;
+        padding: 15px 50px;
+        background-color: #FFD600;
+        border: none;
+        border-radius: 30px;
+    }
+}
+
+.lion {
+    width: 100%;
+    height: 415px;
+    background-color: #9bd8e9;
+    display: flex;
+    align-items: center;
+}
+
+.tiger {
+    width: 45%;
+    height: 100%;
+}
+
+.tiger img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+}
+
+.wolf {
+    width: 46%;
+    padding-left: 20px;
+}
+
+.wolf h1 {
+    font-size: 29px;
+    margin-bottom: 25px;
+}
+
+.wolf p {
+    font-size: 13px;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+
+.wolf .bear {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+
+
+.paris {
+    width: 100%;
+    height: 488px;
+    text-align: center;
+    padding-top: 68px;
+}
+
+.paris h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.london {
+    font-size: 12px;
+    line-height: 19px;
+    color: #666;
+}
+
+.tokyo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 63px;
+}
+
+.panda,
+.elephant,
+.rabbit,
+.monkey {
+    width: 25%;
+    position: relative;
+    text-align: center;
+}
+
+.panda img,
+.elephant img,
+.rabbit img,
+.monkey img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    background-color: #fff7d4;
+    border-radius: 50%;
+    padding: 23px;
+    margin-bottom: 12px;
+}
+
+.january,
+.february,
+.march,
+.april {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -45px;
+    width: 22px;
+    height: 22px;
+    background-color: #ffca05;
+    border-radius: 50%;
+    font-size: 11px;
+    padding-top: 4px;
+}
+
+.tokyo h3 {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.tokyo p {
+    font-size: 11px;
+    color: #777;
+    line-height: 16px;
+}
+
+
+
+.dolphin {
+    width: 100%;
+    height: 402px;
+    background-color: #f5f5f5;
+    padding: 65px 4%;
+}
+
+.dolphin h1 {
+    font-size: 29px;
+    margin-bottom: 48px;
+}
+
+.fox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.turtle {
+    width: 45%;
+}
+
+.koala {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.koala span {
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    background-color: #ffca05;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 11px;
+}
+
+.koala h3 {
+    font-size: 11px;
+}
+
+.turtle p {
+    font-size: 12px;
+    line-height: 19px;
+    color: #555;
+    margin-left: 34px;
+    margin-bottom: 34px;
+}
+
+.hamster {
+    width: 51%;
+    height: 178px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 36px 35px;
+}
+
+.hamster h3 {
+    background-color: #ffca05;
+    border-radius: 9px;
+    padding: 14px 12px;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.hamster p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #555;
+    padding-left: 12px;
+}
+.mama {
+    width: 550px;
+    margin: 45px auto 75px;
+    text-align: center;
+}
+
+.mama h2 {
+    font-size: 22px;
+    margin-bottom: 38px;
+}
+
+.papa {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 13px;
+}
+
+.bro {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 13px;
+}
+
+input,
+textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    border-radius: 9px;
+    padding: 15px 19px;
+    font-size: 12px;
+}
+
+.papa input,
+.bro input {
+    width: 50%;
+    height: 40px;
+}
+
+.mama form > input {
+    height: 40px;
+    margin-bottom: 13px;
+}
+
+textarea {
+    height: 109px;
+    resize: none;
+    margin-bottom: 17px;
+}
+
+button {
+    width: 195px;
+    height: 39px;
+    background-color: #ffca05;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 10px;
+    color: #777;
+    margin-top: 15px;
+}
+
+.text a {
+    color: #555;
+}
+
+.foto {
+    max-width: 1005px;
+    height: 369px;
+    margin: 0 auto 95px;
+    border-radius: 22px;
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 75px;
+}
+
+.left {
+     max-width: 1005px;
+    height: 369px;
+    margin: 0 auto 95px;
+    border-radius: 22px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 75px;
+    background-image: url("src/be163ee0aab8fcc0152ddd41e32f20f33f6e18b2.jpg");
+}
+
+.left h2 {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.left p {
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+
+.social {
+    display: flex;
+    gap: 14px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #444;
+    background-color: white;
+    padding: 14px 19px;
+    border-radius: 8px;
+    font-size: 12px;
+    box-shadow: 0 3px 5px #ddd;
+}
+
+.small {
+    font-size: 9px;
+    color: #aaa;
+    margin-top: 80px;
+    line-height: 15px;
+}
+
+.small a {
+    color: #999;
+}
+
+.footer {
+    background-color: #fafafa;
+    padding: 55px 5% 25px;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1.5fr 1.7fr;
+    gap: 25px;
+}
+
+.logo h2 {
+    font-size: 21px;
+    margin-bottom: 52px;
+}
+
+.logo p {
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #5585b7;
+    background-color: white;
+    border: 1px solid #eee;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.menu h4 {
+    font-size: 12px;
+    margin-bottom: 23px;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #666;
+    font-size: 11px;
+    margin-bottom: 13px;
+}
+
+.menu p {
+    font-size: 10px;
+    margin-bottom: 16px;
+    color: #444;
+}
+
+.bottom {
+    grid-column: 1 / 6;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 25px;
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #777;
+}
+
+@media (max-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    .head {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .logo {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .logo button,
+    .icon button {
+        padding: 10px 18px;
+        font-size: 12px;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .icon img {
+        margin-left: 0;
+        max-width: 25px;
+    }
+
+    .border {
+        margin-top: 20px;
+    }
+
+    .section1 {
+        padding: 15px;
+    }
+
+    .bg {
+        height: auto;
+        min-height: 350px;
+        padding: 25px 20px;
+        background-position: center;
+    }
+
+    .text {
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .text h1 {
+        font-size: 32px;
+    }
+
+    .text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .text button {
+        padding: 13px 30px;
+    }
+
+    .lion {
+        height: auto;
+        flex-direction: column;
+        padding: 25px 15px;
+    }
+
+    .tiger {
+        width: 100%;
+        height: 260px;
+    }
+
+    .tiger img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .wolf {
+        width: 100%;
+        padding: 20px 5px;
+    }
+
+    .wolf h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .wolf p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .paris {
+        height: auto;
+        padding: 45px 15px;
+    }
+
+    .paris h1 {
+        font-size: 25px;
+    }
+
+    .london {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .tokyo {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 35px 10px;
+        margin-top: 40px;
+    }
+
+    .panda,
+    .elephant,
+    .rabbit,
+    .monkey {
+        width: 45%;
+    }
+
+    .panda img,
+    .elephant img,
+    .rabbit img,
+    .monkey img {
+        width: 85px;
+        height: 85px;
+        padding: 20px;
+    }
+
+    .tokyo h3 {
+        font-size: 13px;
+    }
+
+    .tokyo p {
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+    .dolphin {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .dolphin h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .fox {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .turtle {
+        width: 100%;
+    }
+
+    .koala {
+        gap: 10px;
+    }
+
+    .turtle p {
+        font-size: 12px;
+        line-height: 19px;
+        margin-left: 32px;
+        margin-bottom: 25px;
+    }
+
+    .hamster {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .hamster h3 {
+        font-size: 12px;
+    }
+
+    .hamster p {
+        font-size: 12px;
+    }
+
+    .mama {
+        width: 90%;
+        max-width: 550px;
+        margin: 40px auto 60px;
+    }
+
+    .mama h2 {
+        font-size: 21px;
+        margin-bottom: 25px;
+    }
+
+    .papa,
+    .bro {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .papa input,
+    .bro input {
+        width: 100%;
+        height: 42px;
+    }
+
+    input,
+    textarea {
+        font-size: 13px;
+    }
+
+    .mama form > input {
+        height: 42px;
+    }
+
+    textarea {
+        height: 120px;
+    }
+
+    .foto {
+        width: 90%;
+        height: auto;
+        min-height: 330px;
+        margin: 0 auto 60px;
+        padding: 35px 20px;
+        background-position: center;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left h2 {
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    .left p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .social {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .social a {
+        padding: 12px 15px;
+        font-size: 11px;
+    }
+
+    .small {
+        margin-top: 35px;
+        padding: 0 15px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 15px;
+        padding: 35px 20px 20px;
+    }
+
+    .footer > .logo {
+        grid-column: 1 / 3;
+    }
+
+    .logo h2 {
+        margin-bottom: 20px;
+    }
+
+    .menu h4 {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .menu a {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .bottom {
+        grid-column: 1 / 3;
+        flex-direction: column;
+        gap: 12px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .text h1 {
+        font-size: 27px;
+    }
+
+    .bg {
+        min-height: 320px;
+        padding: 20px 15px;
+    }
+
+    .tiger {
+        height: 220px;
+    }
+
+    .panda,
+    .elephant,
+    .rabbit,
+    .monkey {
+        width: 48%;
+    }
+
+    .foto {
+        min-height: 350px;
+        padding: 25px 15px;
+    }
+
+    .footer {
+        padding: 30px 15px 20px;
+        gap: 25px 10px;
+    }
+
+    button {
+        max-width: 100%;
+    }
+}
+
